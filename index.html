@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- SECURITY: CSP via meta (GitHub Pages cannot set headers). Self-hosted only; no inline script/style.
+       Note: frame-ancestors is ignored in meta tags, so a JS frame-buster lives in main.js. -->
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
+  <!-- CUSTOMIZE: Page title and meta description -->
+  <title>Shehan Kosala &mdash; Portfolio</title>
+  <meta name="description" content="Portfolio of Shehan Kosala: tech enthusiast, crypto lover and self-taught creator.">
+  <meta name="theme-color" content="#FFFFFF">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%232563EB'/%3E%3Ctext x='16' y='22' font-size='18' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='700'%3EK%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Primary">
+      <!-- CUSTOMIZE: Logo / monogram -->
+      <a href="#top" class="logo" aria-label="Home"><span class="logo-mark">S</span><span class="logo-text">Shehan</span></a>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" data-spy>About</a></li>
+        <li><a href="#skills" data-spy>Skills</a></li>
+        <li><a href="#projects" data-spy>Projects</a></li>
+        <li><a href="#contact" data-spy>Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero container" id="top">
+      <!-- CUSTOMIZE: Availability status badge -->
+      <span class="pill"><span class="dot" aria-hidden="true"></span>Available for new projects</span>
+      <!-- CUSTOMIZE: Hero headline -->
+      <h1>Hi, I'm <span class="grad">Shehan Kosala</span>.</h1>
+      <!-- CUSTOMIZE: Hero tagline -->
+      <p class="lead">Tech enthusiast, crypto lover and self-taught creator building at the intersection of technology, design and the future.</p>
+      <div class="cta">
+        <a class="btn btn-primary" href="#projects">View Projects</a>
+        <a class="btn btn-ghost" href="#contact">Get in Touch</a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section container reveal" id="about">
+      <p class="eyebrow">01 — About</p>
+      <h2>About me</h2>
+      <!-- CUSTOMIZE: About photo (replace assets/kosala.jpg) and paragraphs -->
+      <div class="about-layout">
+        <img class="about-photo" src="assets/kosala.jpg" alt="Portrait of Shehan Kosala" loading="lazy" decoding="async">
+        <div class="card about-text">
+          <p>Hi, I'm Shehan Kosala. I love technology and crypto. I teach myself everything I know, and I want to build a big career in tech, like Steve Jobs did.</p>
+          <p>My story started in 2013, when I read an article about Bitcoin. I was hooked. I studied crypto on my own and learned how trading works.</p>
+          <p>Along the way I found out that I am creative. So I started a graphic design brand called Lunarway.</p>
+          <p>Later I worked on NFT projects, and that was the start of my life as an entrepreneur. I learned how to serve people well, how to build good relationships, and how smart marketing helps a business grow.</p>
+          <p>I am curious about many things: the world economy, politics, startups, how people think, new technology, and nature. One day I want to bring all of these together in one project that helps people for many years.</p>
+          <p>To get there, I know I need to learn computer science. It is the base for new ideas and progress.</p>
+          <p>I want to make the world a better place. My path may be different from most people's, but I am hopeful about the future in business, art, politics, and protecting our planet.</p>
+        </div>
+      </div>    </section>
+
+    <!-- SKILLS -->
+    <section class="section container reveal" id="skills">
+      <p class="eyebrow">02 — Skills</p>
+      <h2>Skills</h2>
+      <!-- CUSTOMIZE: Skills list (one <li> per skill) -->
+      <div class="card">
+        <ul class="tags tags-lg">
+          <li>Cryptocurrency Research</li>
+          <li>Vibe Coding</li>
+          <li>Photoshop</li>
+          <li>Illustrator</li>
+          <li>Social Media Management</li>
+          <li>NFT Design</li>
+          <li>Videography</li>
+          <li>Photography</li>
+          <li>Politics</li>
+          <li>Trading Meme Coins</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section container reveal" id="projects">
+      <p class="eyebrow">03 — Projects</p>
+      <h2>Projects</h2>
+      <div class="grid grid-3">
+        <!-- CUSTOMIZE: Project item (copy this whole <article> to add more projects manually) -->
+        <article class="card project">
+          <div class="project-head">
+            <h3>Lunarway on Fiverr</h3>
+            <span class="cat">Design</span>
+          </div>
+          <p>My graphic design and creative work, available to browse and order on Fiverr.</p>
+          <ul class="tags"><li>Graphic Design</li><li>NFT Design</li><li>Branding</li></ul>
+          <div class="links">
+            <!-- CUSTOMIZE: Project link -->
+            <a href="https://www.fiverr.com/users/lunarway/portfolio?roleIds=" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 3h7v7M21 3l-9 9M19 14v5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h5"/></svg>View Portfolio</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section container reveal" id="contact">
+      <p class="eyebrow">04 — Contact</p>
+      <h2>Get in touch</h2>
+      <div class="card contact">
+        <p class="section-lead">Have a project in mind? Reach out directly.</p>
+        <div class="email-row">
+          <!-- CUSTOMIZE: Email address (copy button reads this text) -->
+          <code id="emailText">shehan9924@gmail.com</code>
+          <button class="btn btn-ghost" id="copyBtn" type="button">Copy email</button>
+        </div>
+        <p class="sr-only" id="copyStatus" role="status" aria-live="polite"></p>
+        <div class="socials">
+          <!-- CUSTOMIZE: WhatsApp number (wa.me link uses digits only) -->
+          <a class="btn btn-primary" href="https://wa.me/94767789924" target="_blank" rel="noopener noreferrer">WhatsApp: +94 76 778 9924</a>
+          <!-- CUSTOMIZE: Social links -->
+          <a class="btn btn-ghost" href="https://www.facebook.com/0xShehan" target="_blank" rel="noopener noreferrer">Facebook</a>
+          <a class="btn btn-ghost" href="https://x.com/0xShehan" target="_blank" rel="noopener noreferrer">X</a>
+          <a class="btn btn-ghost" href="https://www.instagram.com/0xshehan/" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/0xshehan/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <!-- CUSTOMIZE: Copyright name -->
+      <p>&copy; <span id="year">2026</span> Shehan Kosala. All rights reserved.</p>
+      <p class="build"><span class="dot" aria-hidden="true"></span>Deployed on GitHub Pages</p>
+    </div>
+  </footer>
+
+  <script src="main.js" defer></script>
+</body>
+</html>
